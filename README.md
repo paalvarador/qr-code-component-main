@@ -11,8 +11,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 This is the most basic project from Frontend Mentor called QR code component. This is a beginner project to practice HTML and CSS to show a QR code card.
 
