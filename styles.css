@@ -65,7 +65,7 @@ body {
     .card {
         background-color: var(--white);
         border-radius: 15px;
-        width: 350px;
+        width: 345px;
     }
     .card-description-title {
         font-size: calc(var(--body-font-size) + 9px);
