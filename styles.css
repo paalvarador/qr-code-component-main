@@ -1,0 +1,81 @@
+/* Variable Definitions */
+:root {
+    /* Colors */
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayishblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+
+    /* Fonts */
+    --body-font-size: 15px;
+    --body-font-weight-400: 400;
+    --body-font-weight-700: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Outfit';
+    background-color: var(--lightgray);
+}
+
+.card {
+    background-color: var(--white);
+    width: 250px;
+    border-radius: 15px;
+    margin: 5rem auto;
+}
+
+.card-qr {
+    padding: 0.7rem;
+}
+
+.card-qr img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-description {
+    margin: 1rem;
+    text-align: center;
+}
+
+.card-description-title {
+    font-size: calc(var(--body-font-size) + 1px);
+    font-weight: var(--body-font-weight-700);
+    color: var(--darkblue);
+    padding: 0 0.4rem 1rem 0.4rem;
+}
+
+.card-description-subtitle {
+    font-size: calc(var(--body-font-size) - 4px);
+    font-weight: var(--body-font-weight-300);
+    color: var(--grayishblue); 
+    padding: 0 1rem 2rem 1rem;
+}
+
+/******* BREAKPOINTS *********/
+@media only screen and (max-width: 573px) {
+    .card {
+        background-color: var(--white);
+        border-radius: 15px;
+        width: 350px;
+    }
+    .card-description-title {
+        font-size: calc(var(--body-font-size) + 9px);
+    }
+
+    .card-description-subtitle {
+        font-size: calc(var(--body-font-size) + 2px);
+    }
+}
+
+
+
+
